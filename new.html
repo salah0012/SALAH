@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>EDD SHOP</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin-left: 200px;
+  background: #5d9ab2 url("img_tree.png") no-repeat top left;
+}
+
+.center_div {
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: #d0f0f6;
+  text-align: left;
+  padding: 8px;
+}
+</style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="center_div">
+  <h1>Hello World!</h1>
+  <p>This example contains some advanced CSS methods you may not have learned yet. But, we will explain these methods in a later chapter in the tutorial.</p>
+</div>
+
+<h2>OPPai lovers</h2>
+<p>In this example, we have created a header, three equal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<div class="header">
+  <h2>Welcome</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#0041C2;">Facrbook</div>
+  <div class="column" style="background-color:#59E817;">Whatssap</div>
+  <div class="column" style="background-color:#7E587E;">Instagrame</div>
+</div>
+
+<div class="footer">
+  <p>ok</p>
+</div>
+
+</body>
+</html>
